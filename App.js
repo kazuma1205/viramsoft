@@ -1,8 +1,10 @@
-import React from "react";
-import Navigation from "../Navigation";
+import * as React from 'react';
+import Maincontainer from './src/Screens/MainContainer';
 
-export default function App() {
+function App() {
   return (
-    <Navigation />
+    <Maincontainer />
   );
-}
+};
+
+export default App;
